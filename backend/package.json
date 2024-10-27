@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "latest",
+    "typescript": "latest",
+    "debug": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/debug": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "nodemon": "latest",
+    "prettier": "latest",
+    "pnpm": "latest",
+    "turbopack": "latest"
+  }
+}

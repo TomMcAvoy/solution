@@ -1,0 +1,40 @@
+/* frontend/styles/Team.module.css */
+
+.iamSection {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.iamSection h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.iamSection h2 {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.iamSection p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.iamSection ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.iamSection ul li {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

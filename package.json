@@ -1,0 +1,9 @@
+{
+  "name": "typescript_es6_modular_project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
